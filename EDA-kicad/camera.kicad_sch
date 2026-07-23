@@ -1729,7 +1729,7 @@
 			)
 		)
 	)
-	(global_label "CAM-SWITCH"
+	(global_label "CAM SWITCH"
 		(shape input)
 		(at 148.59 74.93 0)
 		(fields_autoplaced yes)
@@ -1741,7 +1741,7 @@
 		)
 		(uuid "995a7f0f-d2ac-46df-b390-e4ab99764fc7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.2193 74.8506 0)
+			(at 163.1866 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
