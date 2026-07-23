@@ -2975,6 +2975,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 48.26) (xy 120.65 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "094cf463-111f-4b15-8d94-b0d1a563fabd")
+	)
+	(wire
+		(pts
 			(xy 151.13 60.96) (xy 151.13 63.5)
 		)
 		(stroke
@@ -2982,6 +2992,36 @@
 			(type default)
 		)
 		(uuid "53559b09-ad8a-4cb3-8bc8-c469fae9b8e3")
+	)
+	(wire
+		(pts
+			(xy 113.03 45.72) (xy 120.65 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "665eee95-c5c9-46a9-b9de-b66977811890")
+	)
+	(wire
+		(pts
+			(xy 83.82 63.5) (xy 76.2 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67b8f65a-2544-43a1-96ef-0bc3cd7beea1")
+	)
+	(wire
+		(pts
+			(xy 83.82 66.04) (xy 76.2 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c8f584e-9dad-41e2-b5eb-28f0f1eb7eeb")
 	)
 	(wire
 		(pts
@@ -3005,6 +3045,26 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 53.34) (xy 120.65 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96f6e4b4-b419-481b-b4de-b488695797ae")
+	)
+	(wire
+		(pts
+			(xy 157.48 53.34) (xy 151.13 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a811c65b-d389-48e2-a0ea-ae6c10f727fc")
+	)
+	(wire
+		(pts
 			(xy 151.13 63.5) (xy 151.13 66.04)
 		)
 		(stroke
@@ -3012,6 +3072,106 @@
 			(type default)
 		)
 		(uuid "c19c7cff-d862-40ce-8948-1632077289e8")
+	)
+	(wire
+		(pts
+			(xy 83.82 68.58) (xy 76.2 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2423fe8-c764-4e0d-ac32-502ba7859fc1")
+	)
+	(wire
+		(pts
+			(xy 83.82 60.96) (xy 76.2 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec4036b3-dc4c-4e39-bf08-dba708b11ec2")
+	)
+	(label "SIM_RST"
+		(at 83.82 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1d476519-f323-4411-aafd-318e27d77ff0")
+	)
+	(label "SIM_CLK"
+		(at 83.82 63.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "53e036a9-d32c-486e-be9b-63dbf4dfd8cd")
+	)
+	(label "SIM_RST"
+		(at 113.03 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7cab5aba-804e-43c1-98b9-9d8c83e56823")
+	)
+	(label "SIM_I{slash}O"
+		(at 113.03 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8888e303-eed2-4826-a38e-7edc419feb29")
+	)
+	(label "SIM_CLK"
+		(at 113.03 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "95317d0d-8d2b-444d-b9ff-898cf12259fa")
+	)
+	(label "SIM_CD"
+		(at 157.48 53.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "992a0d55-339e-4a28-ac4d-25b6450049ce")
+	)
+	(label "SIM_CD"
+		(at 83.82 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bdfa86a6-bb20-42a7-988b-a2a3381b9d49")
+	)
+	(label "SIM_I{slash}O"
+		(at 83.82 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e3c9078c-326c-4607-b268-3baa831a0584")
 	)
 	(symbol
 		(lib_id "SPIRIT-components:SIM-G85D1160022HHR")
@@ -3734,7 +3894,7 @@
 	)
 	(symbol
 		(lib_id "SPIRIT-components:EG25GGC-128-SGNS")
-		(at 95.25 123.19 0)
+		(at 50.8 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3743,7 +3903,7 @@
 		(fields_autoplaced yes)
 		(uuid "9fb6ab08-106e-4274-9d65-f3a8bc428055")
 		(property "Reference" "U1"
-			(at 95.25 77.47 0)
+			(at 50.8 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3751,7 +3911,7 @@
 			)
 		)
 		(property "Value" "EG25GGC-128-SGNS"
-			(at 95.25 80.01 0)
+			(at 50.8 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3759,7 +3919,7 @@
 			)
 		)
 		(property "Footprint" "SPIRIT-footprints:XCVR_EG25GGC-128-SGNS"
-			(at 95.25 123.19 0)
+			(at 50.8 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3769,7 +3929,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 123.19 0)
+			(at 50.8 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3778,7 +3938,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 95.25 123.19 0)
+			(at 50.8 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3787,7 +3947,7 @@
 			)
 		)
 		(property "MF" "Quectel"
-			(at 95.25 123.19 0)
+			(at 50.8 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3797,7 +3957,7 @@
 			)
 		)
 		(property "Description_1" "Quectel EG25-G is an LTE Cat 4 module optimized specially for M2M and IoT applications. Adopting the 3GPP Rel. 11 LTE technology, it delivers 150Mbps downlink and 50Mbps uplink data rates"
-			(at 95.25 123.19 0)
+			(at 50.8 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3807,7 +3967,7 @@
 			)
 		)
 		(property "Package" "Custom Quectel"
-			(at 95.25 123.19 0)
+			(at 50.8 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3817,7 +3977,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 95.25 123.19 0)
+			(at 50.8 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3827,7 +3987,7 @@
 			)
 		)
 		(property "MP" "EG25GGC-128-SGNS"
-			(at 95.25 123.19 0)
+			(at 50.8 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3837,7 +3997,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 95.25 123.19 0)
+			(at 50.8 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
